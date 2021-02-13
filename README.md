@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/Epalaciol/Praxis-Homework-4.svg?branch=main)](https://travis-ci.com/Epalaciol/Praxis-Homework-4)
+
 # ci-me-please
 Sample Gradle app for learning CI
 

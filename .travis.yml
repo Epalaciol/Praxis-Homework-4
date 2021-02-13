@@ -1,5 +1,12 @@
 language: java
+install: "./gradlew assemble"
+script:
+- "./gradlew test"
+- "./gradlew build"
+- "./gradlew run"
+notifications:
+  slack: praxisunal:6rHKkCQ6k95S1tAKofiftKbO
 
-install: ./gradlew assemble
-script: 
-- ./gradlew test
+env:
+  global:
+    secure: CIobVfy3cS1xeVIDUIxA65T8Bgd6k0s8c223pSX8KU2zzylArj0tc1k+INs7dHgGaOcKtzfGK2BHkx7AXuourfozG3v+lM+xZECJX/oHhoHtmGe2OGJPqN1sg5Ve7woTCAE7hNGYsX6uEN1mWrZO56IARmEXmezVm7YtYel8NxbQHA4WhpQZMiiUg6LzlBbRiPRb1WCrVEWyJWE7hnQnrKcFlBLTTuwx4cldqpUBmWtbe7kZayCsLIAhNhqf93QnJZ3K+0KJDa2eapdetOYQ69sSPliPRmyzEksnzD1/V9Y2+mUTqwAqgLdwYYC+D6bBfDLUEjiLenIXzM+WRhGei+vq1ua9xJY0HouU4yHcOv3DSk9mVTGRP+gWK1LwJEaHqbXNEf15W5pjZS39ffNLkmN1ixkvPiiZvES6Bt5MJsq6TyyYSMEtYEaixwr2fpWFgw19QlpcXMWVjTwxQstiljp2WaFf6Lm6YT30z3xrArnPAY+MrGGrlwQuC77MQLBQv95EcKdl4y0NCVQOOQPK/FJJJ5IgBmKEceRhatOUrMFXWK9gK2ZpEKzGxO7s4DQx9HBY3oevPv+FQVZ5UYfjEYWN8onRvlahX8QZj4+aKfMVnpG4yGyJ53n0Yu+9hoRPxNSFcsvrAdFwcRGsPbOBQyQSkCuHhrbzMax+Zh6T0jg=
