@@ -87,3 +87,11 @@ exit /b 1
 if "%OS%"=="Windows_NT" endlocal
 
 :omega
+
+./gradlew assemble
+
+./gradlew test
+
+./gradlew build
+
+./gradlew run
