@@ -32,3 +32,4 @@ dependencies {
 
 task stage(dependsOn: ['build', 'clean'])
 build.mustRunAfter clean
+run.mustRunAfter build
