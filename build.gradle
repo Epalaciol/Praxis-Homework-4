@@ -29,10 +29,3 @@ dependencies {
 
 // tag::wrapper[]
 // end::wrapper[]
-
-task writeVersionPropertiesFile(type: WriteProperties) {
-    outputFile = file('./gradle/wrapper/gradle-wrapper.properties')
-    property 'version', project.version
-}
-
-assemble.dependsOn writeVersionPropertiesFile
