@@ -17,4 +17,6 @@ deploy:
   api_key:
     secure: HBLq5GkY8Z3BQI/6lumJkLfcaTfl26GJ5M+ESS6vwLUeNUoHfgYbkziCwvB9X0QrRWoHo9lh9ATekjnFRjJDkqnv0Hl7wyjIC06FxEYjbPu073Ku3Ss3hsa37wATTuzkk/3TOCYN3mlmjkBpiegsVfoVy4m6RWzec8R+ic9+C9k+EGYpzsiy28dREkH2DFzae0eydMSpnG69VLZ23xD69p0bEUJ/fuQA/UnY9y5LL4DRa9MSLdIyUgm2QMxnOV65LITbrS1HSvNadLxVExO+sQPFDd+Zgzs6qt9xksJX/qHKxKmIhJocuCBjjrivywK/ALeVTZSGhZJIoO7SjyV+GgWUgfMYtwTF8JooyXnx3/Nvn5fbvXrXaLU4xpot9S1Pyn9j01933TdtJEQm6XpfRrJfZp4z5FFydeh8YrIZYiRrsMioHMwK55n7XezSyL9NuqmL7KpEIAyqf5oYuT2zQXYoGJSQLQ4uXnuVWBqv7+zb13WpucOmaXdf3VviwIhwYJXLREXni30LXTlkzkG0BASF8Bf8l0rmzGJSSB++cpNHwKZIDsWkZFbEK2pfFsDQmbQa4vwU/zcN3bLS+UeRQF4UhOWHfQqqYZARuFkQOftwj4+D6n4qduUcFg/4px5hbwvC+JXn1kwnPUpm2CrBiwJHgj1SwtHOlAgvhcs7yjI=
   app: praxis-homework-four
-  run: "./gradlew run"
+  run: 
+    - restart
+    - "./gradlew run"
