@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar gradle/wrapper/gradle-wrapper.jar
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar build/libs/gs-gradle-0.1.0.jar
