@@ -1,7 +1,9 @@
 [![Build Status](https://travis-ci.com/Epalaciol/Praxis-Homework-4.svg?branch=main)](https://travis-ci.com/Epalaciol/Praxis-Homework-4)
 
-[Travis link](https://travis-ci.com/github/Epalaciol/Praxis-Homework-4)
+# Links y soportes para entregar 
+[*Link de Travis*](https://travis-ci.com/github/Epalaciol/Praxis-Homework-4)
 
+## Configuracion de heroku 
 ![](imagenes/1.png)
 
 ![](imagenes/2.png)
