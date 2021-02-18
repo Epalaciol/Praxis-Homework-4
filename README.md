@@ -1,5 +1,19 @@
 [![Build Status](https://travis-ci.com/Epalaciol/Praxis-Homework-4.svg?branch=main)](https://travis-ci.com/Epalaciol/Praxis-Homework-4)
 
+# Links y soportes para entregar 
+[*Link de Travis*](https://travis-ci.com/github/Epalaciol/Praxis-Homework-4)
+
+## Configuracion de heroku 
+![](imagenes/1.png)
+
+![](imagenes/2.png)
+
+![](imagenes/3.png)
+
+![](imagenes/4.png)
+
+![](imagenes/5.png)
+
 # ci-me-please
 Sample Gradle app for learning CI
 
