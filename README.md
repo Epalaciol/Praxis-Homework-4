@@ -1,5 +1,13 @@
 [![Build Status](https://travis-ci.com/Epalaciol/Praxis-Homework-4.svg?branch=main)](https://travis-ci.com/Epalaciol/Praxis-Homework-4)
 
+[Travis link](https://travis-ci.com/github/Epalaciol/Praxis-Homework-4)
+
+[Heroku setup 1](imagenes/1.png)
+[Heroku setup 2](imagenes/2.png)
+[Heroku setup 3](imagenes/3.png)
+[Heroku setup 4](imagenes/4.png)
+[Heroku setup 5](imagenes/5.png)
+
 # ci-me-please
 Sample Gradle app for learning CI
 
